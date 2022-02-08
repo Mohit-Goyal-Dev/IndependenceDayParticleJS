@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+#container {
+    margin: 0;
+    padding: 0;
+}
+
+.strip {
+    height: 33.33vh;
+    width: 100vw;
+}
+
+#stripOrange {
+    background-color: #FF9933;
+}
+
+#stripWhite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.backGround{
+    background: url(Ashok_Chakra_Logo.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#stripWhite * {
+	z-index: 1;
+}
+
+#stripGreen {
+    background-color: #138808;
+}
+
+h1 {
+    color: #000080;
+/*        color: #9a12b3;*/
+    font-size: 10vh;
+    background-color: #F0F8FF;
+}
